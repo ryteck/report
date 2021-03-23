@@ -1,8 +1,12 @@
+import NAVBAR_COMPONENT from '../components/navbar'
+
 const INDEX_PAGE = () => {
   return (
-        <>
-            Hello World
-        </>
+    <>
+      <NAVBAR_COMPONENT page="index" />
+      <br />
+      HOME
+    </>
   )
 }
 
